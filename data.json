@@ -1,0 +1,158 @@
+{
+  "periods": [
+    {
+      "name": "Древняя Русь",
+      "description": "IX-XIII века"
+    },
+    {
+      "name": "Средневековая Европа",
+      "description": "XIV-XV века"
+    },
+    {
+      "name": "Императорская Россия",
+      "description": "XVIII-XIX века"
+    },
+    {
+      "name": "Советский период",
+      "description": "XX век"
+    }
+  ],
+  "products": [
+    {
+      "name": "Щи по-монастырски",
+      "description": "Постные щи с грибами",
+      "recipe": "Варим 1 час",
+      "periodId": 1,
+      "periodName": "Древняя Русь",
+      "price": 350.0,
+      "category": "dish",
+      "imageName": "shchi",
+      "discount": 0.0
+    },
+    {
+      "name": "Бефстроганов",
+      "description": "Классическое блюдо",
+      "recipe": "Тушим 30 минут",
+      "periodId": 3,
+      "periodName": "Императорская Россия",
+      "price": 450.0,
+      "category": "dish",
+      "imageName": "beef_stroganoff",
+      "discount": 0.0
+    },
+    {
+      "name": "Борщ",
+      "description": "Традиционный суп",
+      "recipe": "Варим 1 час",
+      "periodId": 4,
+      "periodName": "Советский период",
+      "price": 320.0,
+      "category": "dish",
+      "imageName": "borscht",
+      "discount": 0.0
+    },
+    {
+      "name": "Котлеты по-киевски",
+      "description": "Куриные котлеты с маслом",
+      "recipe": "Жарим 20 минут",
+      "periodId": 4,
+      "periodName": "Советский период",
+      "price": 380.0,
+      "category": "dish",
+      "imageName": "kotleti",
+      "discount": 0.0
+    },
+    {
+      "name": "Оливье",
+      "description": "Классический салат",
+      "recipe": "Режем и смешиваем",
+      "periodId": 4,
+      "periodName": "Советский период",
+      "price": 280.0,
+      "category": "dish",
+      "imageName": "olivier",
+      "discount": 0.0
+    },
+    {
+      "name": "Кулебяка",
+      "description": "Русский пирог с начинкой",
+      "recipe": "Выпекаем 40 минут",
+      "periodId": 1,
+      "periodName": "Древняя Русь",
+      "price": 420.0,
+      "category": "dish",
+      "imageName": "kulebyaka",
+      "discount": 0.0
+    },
+    {
+      "name": "Патé из дичи",
+      "description": "Паштет из дичи",
+      "recipe": "Готовим 2 часа",
+      "periodId": 2,
+      "periodName": "Средневековая Европа",
+      "price": 390.0,
+      "category": "dish",
+      "imageName": "pate",
+      "discount": 0.0
+    },
+    {
+      "name": "Сбитень",
+      "description": "Традиционный русский напиток",
+      "recipe": "Варим 20 минут",
+      "periodId": 1,
+      "periodName": "Древняя Русь",
+      "price": 150.0,
+      "category": "drink",
+      "imageName": "sbiten",
+      "discount": 0.0
+    },
+    {
+      "name": "Глинтвейн",
+      "description": "Согревающий напиток",
+      "recipe": "Нагреваем 10 минут",
+      "periodId": 2,
+      "periodName": "Средневековая Европа",
+      "price": 200.0,
+      "category": "drink",
+      "imageName": "mulled_wine",
+      "discount": 0.0
+    },
+    {
+      "name": "Медовик",
+      "description": "Торт с медом",
+      "recipe": "Выпекаем 30 минут",
+      "periodId": 3,
+      "periodName": "Императорская Россия",
+      "price": 400.0,
+      "category": "dessert",
+      "imageName": "medovik",
+      "discount": 10.0
+    }
+  ],
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "role": "ADMIN",
+      "fullName": "Администратор",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "username": "cook",
+      "password": "cook123",
+      "role": "COOK",
+      "fullName": "Повар Иванов",
+      "email": "",
+      "phone": ""
+    },
+    {
+      "username": "client",
+      "password": "client123",
+      "role": "CLIENT",
+      "fullName": "Клиент Петров",
+      "email": "",
+      "phone": ""
+    }
+  ]
+}
